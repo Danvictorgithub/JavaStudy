@@ -20,11 +20,11 @@ public class GuessGame {
 
 		int round = 1;
 		int secretNumber = 0;
-		Player[] rotatePlayer;
-		rotatePlayer = new Player[3];
-		rotatePlayer[0] = p1;
-		rotatePlayer[1] = p2;
-		rotatePlayer[2] = p3;
+		Player[] rotatePlayer = {p1,p2,p3};
+		// rotatePlayer = new Player[3];
+		// rotatePlayer[0] = p1;
+		// rotatePlayer[1] = p2;
+		// rotatePlayer[2] = p3;
 		while(true) {
 			secretNumber = (int) (Math.random() * 10);
 			System.out.println(String.format("\n\n\nRound %d",round));
