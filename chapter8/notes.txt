@@ -1,0 +1,6 @@
+abstract classes
+	-- a class that can't be instantiated
+abstract methods
+	-- a method that doesn't have a body
+	*concrete sub class have to fill in the body of the abstract method/s
+	*if the super class is an abstract class and the sub class is also a abstract class, the abstract sub class doesn't necessarily have to fill in the body of the abstract super class abstract methods. Only in the sub concrete class where it is mandatory
