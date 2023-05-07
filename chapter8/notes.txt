@@ -4,3 +4,11 @@ abstract methods
 	-- a method that doesn't have a body
 	*concrete sub class have to fill in the body of the abstract method/s
 	*if the super class is an abstract class and the sub class is also a abstract class, the abstract sub class doesn't necessarily have to fill in the body of the abstract super class abstract methods. Only in the sub concrete class where it is mandatory
+
+a class can only acccessed based on the reference type
+	--for example a dog object can have bark methods but if the same dog object is referenced in another variable lets say dog2 as Object ex. Dog dog1 = new Dog(); Object dog2 = dog1; this means that dog2 is technically a Dog object, but since it is refernced as "Object" then it cannot access Dog methods
+interface
+	--an abstract class which have a special properties
+		*all defined methods are abstract
+		*can be used for multiple inheritance
+		
